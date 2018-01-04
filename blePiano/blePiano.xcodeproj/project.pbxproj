@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78390F9CBE02E552A8E8E44A /* Pods_blePiano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F06A91ED04BA8E31069889D /* Pods_blePiano.framework */; };
+		89A00FAF1FFDF2A300E4E668 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89A00FAE1FFDF2A300E4E668 /* Info.plist */; };
+		89ED195C1FFCB07B00CB8DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED195B1FFCB07B00CB8DBC /* AppDelegate.swift */; };
+		89ED195E1FFCB07B00CB8DBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED195D1FFCB07B00CB8DBC /* ViewController.swift */; };
+		89ED19611FFCB07B00CB8DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89ED195F1FFCB07B00CB8DBC /* Main.storyboard */; };
+		89ED19631FFCB07B00CB8DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89ED19621FFCB07B00CB8DBC /* Assets.xcassets */; };
+		89ED19661FFCB07B00CB8DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89ED19641FFCB07B00CB8DBC /* LaunchScreen.storyboard */; };
+		89ED196E1FFCD1E800CB8DBC /* BleConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED196D1FFCD1E800CB8DBC /* BleConnectView.swift */; };
+		89ED19701FFCD21A00CB8DBC /* MIDIDeviceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED196F1FFCD21A00CB8DBC /* MIDIDeviceControl.swift */; };
+		89ED19731FFCD28B00CB8DBC /* HFTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED19711FFCD28B00CB8DBC /* HFTableView.swift */; };
+		89ED19741FFCD28B00CB8DBC /* HFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED19721FFCD28B00CB8DBC /* HFTableViewCell.swift */; };
+		89ED19761FFCD2D500CB8DBC /* HFFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED19751FFCD2D500CB8DBC /* HFFunction.swift */; };
+		89ED19781FFCD2F300CB8DBC /* FixationColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED19771FFCD2F300CB8DBC /* FixationColor.swift */; };
+		89ED197A1FFCD2FB00CB8DBC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED19791FFCD2FB00CB8DBC /* Color.swift */; };
+		89ED197C1FFCD32200CB8DBC /* HFDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED197B1FFCD32200CB8DBC /* HFDefine.swift */; };
+		89ED19801FFCD3DD00CB8DBC /* OCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ED197E1FFCD3DD00CB8DBC /* OCFunction.m */; };
+		89ED19821FFCD58200CB8DBC /* BleControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED19811FFCD58200CB8DBC /* BleControl.swift */; };
+		89ED19851FFCD5BB00CB8DBC /* OCMIDIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ED19831FFCD5BA00CB8DBC /* OCMIDIControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BB3E78FE6F2BAD2E0142C47 /* Pods-blePiano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blePiano.release.xcconfig"; path = "Pods/Target Support Files/Pods-blePiano/Pods-blePiano.release.xcconfig"; sourceTree = "<group>"; };
+		0F06A91ED04BA8E31069889D /* Pods_blePiano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blePiano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A00FAE1FFDF2A300E4E668 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89ED19581FFCB07A00CB8DBC /* blePiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blePiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89ED195B1FFCB07B00CB8DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89ED195D1FFCB07B00CB8DBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89ED19601FFCB07B00CB8DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89ED19621FFCB07B00CB8DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89ED19651FFCB07B00CB8DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89ED196D1FFCD1E800CB8DBC /* BleConnectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleConnectView.swift; sourceTree = "<group>"; };
+		89ED196F1FFCD21A00CB8DBC /* MIDIDeviceControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIDeviceControl.swift; sourceTree = "<group>"; };
+		89ED19711FFCD28B00CB8DBC /* HFTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFTableView.swift; sourceTree = "<group>"; };
+		89ED19721FFCD28B00CB8DBC /* HFTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFTableViewCell.swift; sourceTree = "<group>"; };
+		89ED19751FFCD2D500CB8DBC /* HFFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFFunction.swift; sourceTree = "<group>"; };
+		89ED19771FFCD2F300CB8DBC /* FixationColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixationColor.swift; sourceTree = "<group>"; };
+		89ED19791FFCD2FB00CB8DBC /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		89ED197B1FFCD32200CB8DBC /* HFDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFDefine.swift; sourceTree = "<group>"; };
+		89ED197D1FFCD3DC00CB8DBC /* blePiano-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "blePiano-Bridging-Header.h"; sourceTree = "<group>"; };
+		89ED197E1FFCD3DD00CB8DBC /* OCFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCFunction.m; sourceTree = "<group>"; };
+		89ED197F1FFCD3DD00CB8DBC /* OCFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCFunction.h; sourceTree = "<group>"; };
+		89ED19811FFCD58200CB8DBC /* BleControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleControl.swift; sourceTree = "<group>"; };
+		89ED19831FFCD5BA00CB8DBC /* OCMIDIControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMIDIControl.m; sourceTree = "<group>"; };
+		89ED19841FFCD5BA00CB8DBC /* OCMIDIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMIDIControl.h; sourceTree = "<group>"; };
+		C0FC751B1DADA4ACBE7481CA /* Pods-blePiano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blePiano.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blePiano/Pods-blePiano.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89ED19551FFCB07A00CB8DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78390F9CBE02E552A8E8E44A /* Pods_blePiano.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE303AB5A50AA2EFF12E596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F06A91ED04BA8E31069889D /* Pods_blePiano.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89ED194F1FFCB07A00CB8DBC = {
+			isa = PBXGroup;
+			children = (
+				89ED195A1FFCB07A00CB8DBC /* blePiano */,
+				89ED19591FFCB07A00CB8DBC /* Products */,
+				CB60C783EC996E08E4A04498 /* Pods */,
+				1CE303AB5A50AA2EFF12E596 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89ED19591FFCB07A00CB8DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89ED19581FFCB07A00CB8DBC /* blePiano.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89ED195A1FFCB07A00CB8DBC /* blePiano */ = {
+			isa = PBXGroup;
+			children = (
+				89ED19841FFCD5BA00CB8DBC /* OCMIDIControl.h */,
+				89ED19831FFCD5BA00CB8DBC /* OCMIDIControl.m */,
+				89ED19811FFCD58200CB8DBC /* BleControl.swift */,
+				89ED197F1FFCD3DD00CB8DBC /* OCFunction.h */,
+				89ED197E1FFCD3DD00CB8DBC /* OCFunction.m */,
+				89ED197B1FFCD32200CB8DBC /* HFDefine.swift */,
+				89ED19791FFCD2FB00CB8DBC /* Color.swift */,
+				89ED19771FFCD2F300CB8DBC /* FixationColor.swift */,
+				89ED19711FFCD28B00CB8DBC /* HFTableView.swift */,
+				89ED19721FFCD28B00CB8DBC /* HFTableViewCell.swift */,
+				89ED196F1FFCD21A00CB8DBC /* MIDIDeviceControl.swift */,
+				89ED19751FFCD2D500CB8DBC /* HFFunction.swift */,
+				89ED196D1FFCD1E800CB8DBC /* BleConnectView.swift */,
+				89ED195B1FFCB07B00CB8DBC /* AppDelegate.swift */,
+				89ED195D1FFCB07B00CB8DBC /* ViewController.swift */,
+				89ED195F1FFCB07B00CB8DBC /* Main.storyboard */,
+				89ED19621FFCB07B00CB8DBC /* Assets.xcassets */,
+				89ED19641FFCB07B00CB8DBC /* LaunchScreen.storyboard */,
+				89ED197D1FFCD3DC00CB8DBC /* blePiano-Bridging-Header.h */,
+				89A00FAE1FFDF2A300E4E668 /* Info.plist */,
+			);
+			path = blePiano;
+			sourceTree = "<group>";
+		};
+		CB60C783EC996E08E4A04498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC751B1DADA4ACBE7481CA /* Pods-blePiano.debug.xcconfig */,
+				0BB3E78FE6F2BAD2E0142C47 /* Pods-blePiano.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89ED19571FFCB07A00CB8DBC /* blePiano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89ED196A1FFCB07B00CB8DBC /* Build configuration list for PBXNativeTarget "blePiano" */;
+			buildPhases = (
+				FE0DAE160443423116F8DB6D /* [CP] Check Pods Manifest.lock */,
+				89ED19541FFCB07A00CB8DBC /* Sources */,
+				89ED19551FFCB07A00CB8DBC /* Frameworks */,
+				89ED19561FFCB07A00CB8DBC /* Resources */,
+				0FD56847B7C7B746235A98E9 /* [CP] Embed Pods Frameworks */,
+				541A6EFEE6E79047F6EFB3DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blePiano;
+			productName = blePiano;
+			productReference = 89ED19581FFCB07A00CB8DBC /* blePiano.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89ED19501FFCB07A00CB8DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "韩艳锋";
+				TargetAttributes = {
+					89ED19571FFCB07A00CB8DBC = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89ED19531FFCB07A00CB8DBC /* Build configuration list for PBXProject "blePiano" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89ED194F1FFCB07A00CB8DBC;
+			productRefGroup = 89ED19591FFCB07A00CB8DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89ED19571FFCB07A00CB8DBC /* blePiano */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89ED19561FFCB07A00CB8DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A00FAF1FFDF2A300E4E668 /* Info.plist in Resources */,
+				89ED19661FFCB07B00CB8DBC /* LaunchScreen.storyboard in Resources */,
+				89ED19631FFCB07B00CB8DBC /* Assets.xcassets in Resources */,
+				89ED19611FFCB07B00CB8DBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD56847B7C7B746235A98E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blePiano/Pods-blePiano-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		541A6EFEE6E79047F6EFB3DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blePiano/Pods-blePiano-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0DAE160443423116F8DB6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89ED19541FFCB07A00CB8DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ED195E1FFCB07B00CB8DBC /* ViewController.swift in Sources */,
+				89ED19731FFCD28B00CB8DBC /* HFTableView.swift in Sources */,
+				89ED196E1FFCD1E800CB8DBC /* BleConnectView.swift in Sources */,
+				89ED19851FFCD5BB00CB8DBC /* OCMIDIControl.m in Sources */,
+				89ED19821FFCD58200CB8DBC /* BleControl.swift in Sources */,
+				89ED19761FFCD2D500CB8DBC /* HFFunction.swift in Sources */,
+				89ED19741FFCD28B00CB8DBC /* HFTableViewCell.swift in Sources */,
+				89ED19801FFCD3DD00CB8DBC /* OCFunction.m in Sources */,
+				89ED19701FFCD21A00CB8DBC /* MIDIDeviceControl.swift in Sources */,
+				89ED195C1FFCB07B00CB8DBC /* AppDelegate.swift in Sources */,
+				89ED19781FFCD2F300CB8DBC /* FixationColor.swift in Sources */,
+				89ED197C1FFCD32200CB8DBC /* HFDefine.swift in Sources */,
+				89ED197A1FFCD2FB00CB8DBC /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89ED195F1FFCB07B00CB8DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89ED19601FFCB07B00CB8DBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89ED19641FFCB07B00CB8DBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89ED19651FFCB07B00CB8DBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89ED19681FFCB07B00CB8DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89ED19691FFCB07B00CB8DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89ED196B1FFCB07B00CB8DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0FC751B1DADA4ACBE7481CA /* Pods-blePiano.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYXE6Z733G;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../百度云同步盘/同步盘/svn/琴家/iPad/iPad/v1.0/code/琴加swift41/蔚科/其它/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyanfeng.midipiano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "blePiano/blePiano-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89ED196C1FFCB07B00CB8DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB3E78FE6F2BAD2E0142C47 /* Pods-blePiano.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYXE6Z733G;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../百度云同步盘/同步盘/svn/琴家/iPad/iPad/v1.0/code/琴加swift41/蔚科/其它/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyanfeng.midipiano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "blePiano/blePiano-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89ED19531FFCB07A00CB8DBC /* Build configuration list for PBXProject "blePiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ED19681FFCB07B00CB8DBC /* Debug */,
+				89ED19691FFCB07B00CB8DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89ED196A1FFCB07B00CB8DBC /* Build configuration list for PBXNativeTarget "blePiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ED196B1FFCB07B00CB8DBC /* Debug */,
+				89ED196C1FFCB07B00CB8DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89ED19501FFCB07A00CB8DBC /* Project object */;
+}
