@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收到的消息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Av-Vd-sgJ">
+                                <rect key="frame" x="16" y="52" width="87" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="0dh-jV-2UL"/>
+                                    <constraint firstAttribute="width" constant="87" id="Qix-Oc-gxt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="输入要发送的内容" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WL1-Ur-Lgu">
+                                <rect key="frame" x="121.5" y="198" width="132" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="a66-ny-Lti"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uz4-AT-XIh">
+                                <rect key="frame" x="172" y="318.5" width="31" height="30"/>
+                                <state key="normal" title="发送"/>
+                                <connections>
+                                    <action selector="sendAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uvH-AM-cLc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnY-T1-u4u">
+                                <rect key="frame" x="111" y="48" width="235" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="TKn-76-Y3I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DnY-T1-u4u" firstAttribute="leading" secondItem="8Av-Vd-sgJ" secondAttribute="trailing" constant="8" id="1UB-lb-mes"/>
+                            <constraint firstItem="8Av-Vd-sgJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9iG-mf-qYJ"/>
+                            <constraint firstItem="uz4-AT-XIh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bd6-zE-k8l"/>
+                            <constraint firstItem="DnY-T1-u4u" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="QaP-RG-dKO"/>
+                            <constraint firstItem="uz4-AT-XIh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QeP-a9-1lC"/>
+                            <constraint firstItem="WL1-Ur-Lgu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zeo-Kg-cXl"/>
+                            <constraint firstItem="8Av-Vd-sgJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="nhL-D7-MOT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DnY-T1-u4u" secondAttribute="trailing" constant="13" id="ogy-1t-4Of"/>
+                            <constraint firstItem="WL1-Ur-Lgu" firstAttribute="top" secondItem="DnY-T1-u4u" secondAttribute="bottom" constant="50" id="u0F-uW-PU0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="showLable" destination="DnY-T1-u4u" id="FkJ-Sf-Rpe"/>
+                        <outlet property="textField" destination="WL1-Ur-Lgu" id="cXz-wZ-qVK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="265" y="107"/>
+        </scene>
+    </scenes>
+</document>

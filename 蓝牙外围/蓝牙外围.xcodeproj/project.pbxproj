@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18825FE71E49719100D6AFF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18825FE61E49719100D6AFF0 /* main.m */; };
+		18825FEA1E49719100D6AFF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18825FE91E49719100D6AFF0 /* AppDelegate.m */; };
+		18825FED1E49719100D6AFF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18825FEC1E49719100D6AFF0 /* ViewController.m */; };
+		18825FF01E49719100D6AFF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18825FEE1E49719100D6AFF0 /* Main.storyboard */; };
+		18825FF21E49719100D6AFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18825FF11E49719100D6AFF0 /* Assets.xcassets */; };
+		18825FF51E49719200D6AFF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18825FF31E49719200D6AFF0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18825FE21E49719100D6AFF0 /* 蓝牙外围.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蓝牙外围.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18825FE61E49719100D6AFF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18825FE81E49719100D6AFF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18825FE91E49719100D6AFF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18825FEB1E49719100D6AFF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18825FEC1E49719100D6AFF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18825FEF1E49719100D6AFF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18825FF11E49719100D6AFF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18825FF41E49719200D6AFF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18825FF61E49719200D6AFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18825FDF1E49719100D6AFF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18825FD91E49719100D6AFF0 = {
+			isa = PBXGroup;
+			children = (
+				18825FE41E49719100D6AFF0 /* 蓝牙外围 */,
+				18825FE31E49719100D6AFF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18825FE31E49719100D6AFF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18825FE21E49719100D6AFF0 /* 蓝牙外围.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18825FE41E49719100D6AFF0 /* 蓝牙外围 */ = {
+			isa = PBXGroup;
+			children = (
+				18825FE81E49719100D6AFF0 /* AppDelegate.h */,
+				18825FE91E49719100D6AFF0 /* AppDelegate.m */,
+				18825FEB1E49719100D6AFF0 /* ViewController.h */,
+				18825FEC1E49719100D6AFF0 /* ViewController.m */,
+				18825FEE1E49719100D6AFF0 /* Main.storyboard */,
+				18825FF11E49719100D6AFF0 /* Assets.xcassets */,
+				18825FF31E49719200D6AFF0 /* LaunchScreen.storyboard */,
+				18825FF61E49719200D6AFF0 /* Info.plist */,
+				18825FE51E49719100D6AFF0 /* Supporting Files */,
+			);
+			path = "蓝牙外围";
+			sourceTree = "<group>";
+		};
+		18825FE51E49719100D6AFF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18825FE61E49719100D6AFF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18825FE11E49719100D6AFF0 /* 蓝牙外围 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18825FF91E49719200D6AFF0 /* Build configuration list for PBXNativeTarget "蓝牙外围" */;
+			buildPhases = (
+				18825FDE1E49719100D6AFF0 /* Sources */,
+				18825FDF1E49719100D6AFF0 /* Frameworks */,
+				18825FE01E49719100D6AFF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "蓝牙外围";
+			productName = "蓝牙外围";
+			productReference = 18825FE21E49719100D6AFF0 /* 蓝牙外围.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18825FDA1E49719100D6AFF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.guojian.;
+				TargetAttributes = {
+					18825FE11E49719100D6AFF0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SYXE6Z733G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18825FDD1E49719100D6AFF0 /* Build configuration list for PBXProject "蓝牙外围" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18825FD91E49719100D6AFF0;
+			productRefGroup = 18825FE31E49719100D6AFF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18825FE11E49719100D6AFF0 /* 蓝牙外围 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18825FE01E49719100D6AFF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18825FF51E49719200D6AFF0 /* LaunchScreen.storyboard in Resources */,
+				18825FF21E49719100D6AFF0 /* Assets.xcassets in Resources */,
+				18825FF01E49719100D6AFF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18825FDE1E49719100D6AFF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18825FED1E49719100D6AFF0 /* ViewController.m in Sources */,
+				18825FEA1E49719100D6AFF0 /* AppDelegate.m in Sources */,
+				18825FE71E49719100D6AFF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18825FEE1E49719100D6AFF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18825FEF1E49719100D6AFF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18825FF31E49719200D6AFF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18825FF41E49719200D6AFF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18825FF71E49719200D6AFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18825FF81E49719200D6AFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18825FFA1E49719200D6AFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SYXE6Z733G;
+				INFOPLIST_FILE = "蓝牙外围/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guojian.CloudIMTest.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18825FFB1E49719200D6AFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SYXE6Z733G;
+				INFOPLIST_FILE = "蓝牙外围/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guojian.CloudIMTest.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18825FDD1E49719100D6AFF0 /* Build configuration list for PBXProject "蓝牙外围" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18825FF71E49719200D6AFF0 /* Debug */,
+				18825FF81E49719200D6AFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18825FF91E49719200D6AFF0 /* Build configuration list for PBXNativeTarget "蓝牙外围" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18825FFA1E49719200D6AFF0 /* Debug */,
+				18825FFB1E49719200D6AFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18825FDA1E49719100D6AFF0 /* Project object */;
+}

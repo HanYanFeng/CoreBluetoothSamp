@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="输入要发送的内容" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WL1-Ur-Lgu">
+                                <rect key="frame" x="121.5" y="198" width="132" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="a66-ny-Lti"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uz4-AT-XIh">
+                                <rect key="frame" x="172" y="318.5" width="31" height="30"/>
+                                <state key="normal" title="发送"/>
+                                <connections>
+                                    <action selector="sendAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uvH-AM-cLc"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gB8-az-IbN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gB8-az-IbN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2tT-HI-JQK"/>
+                            <constraint firstItem="uz4-AT-XIh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bd6-zE-k8l"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gB8-az-IbN" secondAttribute="bottom" id="DNo-FH-SEl"/>
+                            <constraint firstItem="uz4-AT-XIh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QeP-a9-1lC"/>
+                            <constraint firstItem="gB8-az-IbN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZWg-M1-rAd"/>
+                            <constraint firstItem="WL1-Ur-Lgu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zeo-Kg-cXl"/>
+                            <constraint firstAttribute="trailing" secondItem="gB8-az-IbN" secondAttribute="trailing" id="idC-OV-9b5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="TextView" destination="gB8-az-IbN" id="rDh-Xw-5oC"/>
+                        <outlet property="textField" destination="WL1-Ur-Lgu" id="cXz-wZ-qVK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264.80000000000001" y="106.59670164917542"/>
+        </scene>
+    </scenes>
+</document>
