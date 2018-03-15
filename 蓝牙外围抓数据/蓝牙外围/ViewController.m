@@ -19,6 +19,7 @@
 @end
 
 @implementation ViewController
+
 static NSInteger a = 0;
 - (IBAction)sendAction:(id)sender {
     a++;
@@ -111,8 +112,7 @@ static NSString * const kCharacteristicUUID = @"7772E5DB-3868-4112-A1A9-F2669D10
                                                    CBAdvertisementDataLocalNameKey:@"bleText"
                                                    ,CBAdvertisementDataServiceUUIDsKey:@[[CBUUID UUIDWithString:kServiceUUID]]
                                                    }];
-//        广播后会调用下面的方法
-//        -peripheralManagerDidStartAdvertising:error:
+
     }
 }
 //        广播后会调用下面的方法
